@@ -4,8 +4,18 @@ import java.util.LinkedList;
 
 import auto_radnja.gume.AutoGuma;
 
+/**
+ * Klasa koja implementira interfejs Radnja i ima atribut gume
+ * 
+ * @author DzoleDzavol
+ * @version
+ */
+
 public class VulkanizerskaRadnja implements Radnja {
 
+	/**
+	 * lista svih guma
+	 */
 	private LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
 	
 	@Override
