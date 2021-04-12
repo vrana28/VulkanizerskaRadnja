@@ -13,17 +13,18 @@ import auto_radnja.gume.AutoGuma;
 
 public interface Radnja {
 
+
 	/**
-	 * Metoda koja dodaje gumu u listu.
-	 * @param a Guma koja se dodaje
+	 * Metoda koja dodaje gumu u listu svih guma koje se odnose na vulkanizersku radnju
+	 * @param a Guma klase AutoGuma
 	 */
 	void dodajGumu(AutoGuma a);
 	/**
-	 * Metoda koja nalazi listu svih guma po njihovom modelu.
-	 * 
-	 * @param markaModel
-	 * @return listu svih guma koje odgovaraju trazenom modelu
+	 * Metoda koja nalazi listu svih guma klase AutoGuma po njihovom modelu.
+	 * @param markaModel markaModela kao atribut koji ce nam pomoci da nadjemo trazene gume
+	 * @return listu svih guma klase AutoGuma koje odgovaraju trazenom modelu
 	 */
 	LinkedList<AutoGuma> pronadjiGumu(String markaModel);
+	
 	
 }

@@ -125,6 +125,7 @@ public class AutoGuma {
 
 	/**
 	 * Provera da li su 2 auto gume iste, u tom slucaju vraca true, drugacije false
+	 * 
 	 */
 	@Override
 	public boolean equals(Object obj) {
